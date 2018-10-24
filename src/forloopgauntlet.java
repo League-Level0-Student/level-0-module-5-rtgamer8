@@ -55,8 +55,7 @@ public class forloopgauntlet {
 		 * for (int i = 0; i < 3; i++) { for (int j = 0; j < 3; j++) {
 		 * System.out.println(i+""+j); }
 		 * 
-		 * }
-		 */
+		
 		for (int i = 0; i < 7; i+=3) {
 			
 		for (int j = 1; j < 4; i++) {
@@ -66,10 +65,42 @@ public class forloopgauntlet {
 		}
 		
 		
+
+for (int j = 0; j < 7 ; j+=3) {
+	
+	for (int i = 1; i < 4; i++) {
+		
+		System.out.print(j+i);
+	}
+	System.out.println();
+}	
+		
+
+for (int j = 0; j < 100 ; j+=10) {
+	
+	for (int i = 1; i < 11; i++) {
+		
+		System.out.print(j+i+ " ");
+	}
+	System.out.println();
+}			
 		
 		
+		for (int j = 1; j < 7; j++) {
+			
 		
+	for (int i = 0; i- j < 0; i++) {
+		System.out.print("*" + " ");
+	}
+	System.out.println();
 		
+		}
+		*/
+		
+for (int i = 0; i < 100; i++) {
+System.out.println(100-i);	
+}
+		           
 		
 		
 		
